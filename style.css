@@ -1,0 +1,93 @@
+body 
+{
+      font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+      background: white; /* Цвет фона */
+      color: black; /* Цвет текста */
+      background: aqua;
+}
+body h1 
+{
+      text-align: center;
+}
+
+.main 
+{
+      height: 200px;
+      width: 1000px;
+      background: white;
+      border-color: white;
+      border-width: 1px;
+      border-style: solid;
+      background: #ccc;
+}
+.flight
+{
+      height: 40px;
+      width: 1000px;
+      display: flex;
+      border-color: black;
+      border-width: 1px;
+      border-style: solid;
+}
+.polet
+{
+      height: 40px;
+      width: 200px;
+      display: inline-block;
+      background: white;
+      margin: auto;
+      text-align: center;
+      font-size: large;
+      background: #ccc;
+}
+.mainforreis
+{
+      height: 600px;
+      width: 800px;
+      background: white;
+      background: #ccc;
+}
+.half
+{
+      height: 600px;
+      max-height: 600px;
+      width: 400px;
+      max-width: 400px;
+      display: inline-block;
+}
+.info 
+{
+      height: 200px;
+      width: 400px;
+      text-align: left;
+      font-size: large;
+      background: #ddd;
+      display: inline-block;
+}
+.map
+{
+      height: 400px;
+      width: 400px;
+      max-height: 400px;
+      max-width: 400px;
+      display: inline-block;
+      background-size: cover;
+}
+
+.image
+{
+      display: inline-block;
+      height: 600px;
+      max-height: 600px;
+      width: 400px;
+      max-width: 400px;
+      float: right;
+      background: blue;
+      object-fit: contain;
+}
+.btn
+{
+      background-color: green;
+      height: 50px;
+      width: 100px;
+}
