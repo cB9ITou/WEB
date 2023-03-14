@@ -3,17 +3,22 @@ body
       font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
       background: white; /* Цвет фона */
       color: black; /* Цвет текста */
-      background: white;
       width: 100%;
       padding: 0;
       margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+}
+html
+{
+      height: 100%;
 }
 body header
 {
-      background: aqua;
+      background: #87cefa;
       height: 100px;
       width: 100%;
-      background: #EDC7B7;
       margin-top: 0px;
       margin-right: 0px;
       margin-left: 0px;
@@ -22,99 +27,95 @@ body header
       padding-right: 0px;
       padding-left: 0px;
       padding-bottom: 0px;
+      top: 0;
+      flex: 0 0 auto;
 }
-.nameheader
+table
 {
-    height: 100px;
-    width: 40%;
-    float: left;
+      border: 0;
+      border-collapse: collapse;
 }
-.imageheader
+td
 {
-    height: 90%;
-    width: 90%;
-    max-width: 100px;
-    max-height: 150px;
-    float: left;
+      padding: 0px;
+      border: 0px;
 }
-.main 
+nav>a
 {
+      font-size: 16px;
+      margin-right: 10px;
+}
+footer
+{
+      width: 100%;
       height: 200px;
-      width: 1000px;
-      background: white;
-      border-color: white;
-      border-width: 1px;
-      border-style: solid;
+      flex: 0 0 auto;
+      background: #87cefa;
+}
+main 
+{
+      flex: 1 0 auto;
+}
+.maininfo
+{
+      width: 60%;
+      height: 100%;
+      float: left;
       background: #ccc;
 }
-.flight
+.mainside
 {
-      height: 40px;
-      width: 1000px;
-      display: flex;
-      border-color: black;
-      border-width: 1px;
-      border-style: solid;
-}
-.polet
-{
-      height: 40px;
-      width: 200px;
-      display: inline-block;
-      background: white;
-      margin: auto;
-      text-align: center;
-      font-size: large;
-      background: #ccc;
-}
-.mainforreis
-{
-      height: 600px;
-      width: 800px;
-      background: white;
-      background: #ccc;
-}
-.half
-{
-      height: 600px;
-      max-height: 600px;
-      width: 400px;
-      max-width: 400px;
-      display: inline-block;
-}
-.info 
-{
-      height: 200px;
-      width: 400px;
-      text-align: left;
-      font-size: large;
+      width: 40%;
+      height: 100%;
+      float: right;
       background: #ddd;
-      display: inline-block;
 }
-.map
+.container
 {
-      height: 400px;
-      width: 400px;
-      max-height: 400px;
-      max-width: 400px;
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+}
+.contact
+{
+      width: 20%; 
+      height: 200px; 
+      display: inline-block;
+      vertical-align: top;
+}
+.logos
+{
+      width: 40%;
+      height: 200px;
+      font-size: 2em;/*размер иконок*/
+      color: white;/*цвет иконок*/
+      margin: 0 10px;
+      display: inline-block;/*отображать как строчно-блочный элемент*/
+      transition: 0.5s;/*плавный переход*/
+}
+.logos li
+{
+      list-style: none;
+}
+.sitemap
+{
+      width: 35%;
+      text-align: right;
+      height: 200px;
       display: inline-block;
       background-size: cover;
+      vertical-align: top;
 }
-
-.image
+.sitemap ul
 {
-      display: inline-block;
-      height: 600px;
-      max-height: 600px;
-      width: 400px;
-      max-width: 400px;
-      float: right;
-      background: blue;
-      object-fit: contain;
+      font-size: 16px;
 }
-.btn
+a {
+  text-decoration: none;
+  color: white;
+}
+.sitemap A:hover
 {
-      background-color: green;
-      height: 50px;
-      width: 100px;
+      font-size: 30px;
+      color: blue;
 }
