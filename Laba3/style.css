@@ -61,7 +61,11 @@ main
       width: 60%;
       height: 100%;
       float: left;
-      background: #ccc;
+      background: white;
+}
+.maininfo a
+{
+      color: black;
 }
 .mainside
 {
