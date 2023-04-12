@@ -123,3 +123,54 @@ a {
       font-size: 30px;
       color: blue;
 }
+.tabs a span 
+{ 
+      display: inline-block;
+      border-radius: 5px 5px 0 0; width: 100px;
+      margin-left: 10px; text-align: center;
+      background: #fff; padding: 5px;
+      color: #000; cursor: pointer;
+}
+.tabs a span.active 
+{ 
+      background: #004EA6;
+      color: #fff;
+      font-size: 30px;
+}
+.tabs a span.hover 
+{
+      background: #0077FF; 
+      color: blue;
+      font-size: 30px;
+}
+.content 
+{ border: 1px solid silver;
+      border-radius: 5px;
+}
+.content-active 
+{
+      border: 1px solid #004EA6; border-radius: 5px;
+}
+.inputStyle 
+{ 
+      border-radius: 3px;
+      height: 25px; margin-left: 10px;
+      margin-top: 10px; margin-bottom: 10px;
+      width: 363px;
+}
+.buttonStyle 
+{ 
+      margin-bottom: 10px; width: 100px;
+      height: 25px; cursor: pointer;
+      margin-left: 279px; background: #fff;
+      border-radius: 5px;
+}
+.buttonStyle:hover 
+{
+      background: #0077FF; color: #fff;
+}
+.buttonStyle:active 
+{ 
+      background: #004EA6;
+      color: #fff;
+}
