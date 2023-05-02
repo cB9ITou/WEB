@@ -45,29 +45,16 @@
     </header>
 
     <main>
-        <div class="maininfo">
-            <h2>Информация о рейсах</h2>
-            <div class="containerfortabs">
-                <div class="tabs">
-                    <a><span class="mainSectionPannel"> Вылет </a>
-                    <a><span class="mainSectionPannel"> Прилёт </a>
-                    <a><span class ="mainSectionPannel" id="tagsfortest"> Теги </a>
-                    <a><span class="mainSectionPannel"> Добавить</a>
-                </div>
-                <div id="contentPannel" class="content">
-
-                </div>
+        <div class="showPictures">
+            <span>Критерий поиска:</span>
+            <br class="clear" />
+            <input id="fieldForTagsOfOicture"><br class="clear" /><button class="buttonStyle">Найти</button>
+            <br class="clear" />
+            <span>Результат:</span>
+            <br class="clear" />
+            <div class="photos">
+                <img id="newPicture" />
             </div>
-
-            <h3>Сервис аэропорта г. Казань</h3>
-            <ul>
-                <li><a href="#">Купить билет</a></li>
-                <li><a href="#">Гостиница</a></li>
-                <li><a href="#">Сбор помощи</a></li>
-            </ul>
-        </div>
-        <div class="mainside">
-            <img src="mainaero.jpeg" alt="Изображение аэропорта" style="width: 600px;">
         </div>
     </main>
 
@@ -98,6 +85,7 @@
             </div>
         </div>
     </footer>
-</body>
 
-</html>
+    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+</body>
