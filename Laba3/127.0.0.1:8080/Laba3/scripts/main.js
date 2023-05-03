@@ -165,16 +165,33 @@ var main = function (toDoObjects) {
 	});
 	
 	
-	$(".content").on("click", ".buttonStyle", function() {
-		var newDescription = $("#description").val();
+$(".content").on("click", ".buttonStyle", function() {
 		var newTags =  $("#tags").val().replace(/\s/g, " ").split(',');
+		var newDescription = $("#description").val();
 
-		var result = updateJson(toDoObjects, newDescription, newTags);
+		var newToDo = {"description":newDescription, "tags":newTags};
+
+		
+		$.post("todos", newToDo, function (result) {
+			console.log(result);
+			
+			toDoObjects.push(newToDo);
+
+			organizedByTag = organizeByTags(toDoObjects);
+			
+
+			
+			$("#description").val("");
+			$("#tags").val("");
+		});		
+
+		var result = updateJson(toDoObjects, newTags, newDescription);
 
 		organizedByTag = organizeByTags(result);
 	});
 }
-function updateJson(toDoObjects, newDescription, newTags) {
+
+function updateJson(toDoObjects, newTags, newDescription) {
 	var newJsonObject = function(description, tags) {
 		this.description = description;
 		this.tags = tags
