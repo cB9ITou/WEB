@@ -185,9 +185,7 @@ var main = function (toDoObjects) {
 			$("#tags").val("");
 		});		
 
-		var result = updateJson(toDoObjects, newTags, newDescription);
 
-		organizedByTag = organizeByTags(result);
 	});
 }
 function updateJson(toDoObjects, newDescription, newTags) {
