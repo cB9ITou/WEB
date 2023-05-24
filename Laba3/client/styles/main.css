@@ -1,0 +1,376 @@
+html {
+	height: 100%;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+	width: 100%;
+	height: 100%;
+	display: flex;
+    flex-direction: column;
+}
+
+.clear {
+	clear: both;
+	float: left;
+}
+
+header  a, footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+header a:hover, footer a:hover {
+	color: #004EA6;
+}
+
+header a:active, footer a:active {
+	color: #3074BF;
+}
+body header
+{
+      background: #87cefa;
+      height: 100px;
+      width: 100%;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-left: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-left: 0px;
+      padding-bottom: 0px;
+      top: 0;
+      flex: 0 0 auto;
+}
+table
+{
+      border: 0;
+      border-collapse: collapse;
+}
+td
+{
+      padding: 0px;
+      border: 0px;
+}
+
+.mainTheme {
+	margin-top: 50px;
+	flex: 1 0 auto;
+	min-height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footerSiteName h1 {
+	margin: auto;
+	margin-left: 10px;
+}
+
+.footerNavigation nav {
+	margin-right: 10px;
+	margin-top: 11px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+footer
+{
+      width: 100%;
+      height: 200px;
+      flex: 0 0 auto;
+      background: #87cefa;
+}
+
+.contact {
+	margin-left: 10px;
+}
+
+.contact span {
+	margin-left: 10px;
+}
+
+.siteMap {
+	margin-right: 10px;
+}
+
+.mainLogo img {
+	border: 0px solid silver;
+	width: 500px;
+	height: 500px;
+	border-radius: 1px;
+	float: right;
+	margin-top: 2%;
+	margin-right: 2%;
+}
+
+.rightInfo {
+	border: 0px solid silver;
+	width: 500px;
+	height: 500px;
+	float: right;
+	margin-right: 2%;
+	margin-top: 3%;
+	border-radius: 1px;
+}
+
+.mainLogoInfo {
+	float: right;
+	padding: 3%;
+	margin-top: 3%;
+}
+
+.mainLogoInfo span {
+	margin-left: 5%;
+}
+
+.centerInfo {
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.logOrRegRefBlock {
+	border-radius: 5px;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logOrRegRefBlock button {
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	border: 0.5px solid silver;
+	font-family: 0.8em Arial, Helvetica, sans-serif;
+	width: 45%;
+}
+
+.logOrRegRefBlock button:hover {
+	background-color: #87cefa;
+	color: #FFFFFF;
+	border: 0px solid silver;
+	cursor: pointer;
+}
+
+.logOrRegRefBlock button:active {
+	background-color: #87cefa;
+	color: #FFFFFF;
+	border: 0px solid silver;
+}
+
+.buttonUser {
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	border: 0.5px solid silver;
+	font-family: Comic Sans MS;
+	width: 45%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+.buttonUser:hover  {
+	background-color: #0077FF;
+	color: #FFFFFF;
+	border: 0px solid silver;
+	cursor: pointer;
+}
+
+.buttonUser:active {
+	background-color: #004EA6;
+	color: #FFFFFF;
+	border: 0px solid silver;
+}
+
+.videoInMainPage {
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+.videoInMainPage video {
+	width: 802px;
+	border-radius: 5px;
+}
+
+.FAQTheme {
+	margin-top: 50px;
+	flex: 1 0 auto;
+	min-height: 100%;
+}
+
+.FAQTheme ul, h3{
+	margin-left: 2%;
+}
+
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-left: 10px;
+	text-align: center;
+	background: #fff;
+	padding: 5px;
+	color: #000;
+	cursor: pointer;
+}
+
+.tabs a span.active {
+	background: #004EA6;
+	color: #fff;
+}
+
+.tabs a span.hover {
+	background: #0077FF;
+	color: #fff;
+}
+
+.content {
+	border: 1px solid silver;
+	border-radius: 5px;
+}
+
+.content-active {
+	border: 1px solid #004EA6;
+	border-radius: 5px;
+}
+
+.inputStyleDescription {
+	border-radius: 3px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 363px;
+	font-family: Comic Sans MS;
+}
+
+.inputStyleTags {
+	border-radius: 3px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 363px;
+	font-family: Comic Sans MS;
+}
+
+.inputStyleUser {
+	border-radius: 3px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 363px;
+	font-family: Comic Sans MS;
+}
+
+.buttonStyle {
+	font-family: Comic Sans MS;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 25px;
+	cursor: pointer;
+	margin-left: 279px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.buttonStyle:hover {
+	background: #0077FF;
+	color: #fff;
+}
+
+.buttonStyle:active {
+	background: #004EA6;
+	color: #fff;
+}
+
+.showPictures {
+	border: 1px solid silver;
+	width: 90%;
+	height: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	margin-left: 5%;
+}
+
+#fieldForTagsOfOicture {
+	border-radius: 3px;
+	height: 25px;
+	width: 363px;
+	font-family: Comic Sans MS;
+	margin-top: 10px;
+	margin-left: 6%;
+}
+
+.showPictures span {
+	margin: 2%;
+}
+
+.showPictures button {
+	margin-top: 10px;
+	margin-left: 350px;
+}
+
+#newPicture {
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.container
+{
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+}
+.contacts
+{
+      width: 20%; 
+      height: 200px; 
+      display: inline-block;
+      vertical-align: top;
+}
+.logos
+{
+      width: 40%;
+      height: 200px;
+      font-size: 2em;/*размер иконок*/
+      color: white;/*цвет иконок*/
+      margin: 0 10px;
+      display: inline-block;/*отображать как строчно-блочный элемент*/
+      transition: 0.5s;/*плавный переход*/
+}
+.logos li
+{
+      list-style: none;
+}
+.sitemaps
+{
+      width: 35%;
+      text-align: right;
+      height: 200px;
+      display: inline-block;
+      background-size: cover;
+      vertical-align: top;
+}
+.sitemaps ul
+{
+      font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.sitemaps A:hover
+{
+      font-size: 30px;
+      color: blue;
+}
+.container a
+{
+	color: #87cefa;
+}
